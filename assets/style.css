@@ -1,21 +1,21 @@
 /* ------------------------------------------------------------------
    medina vazifehardalani — portfolio
-   Look: a light content card on a bold page colour, black sidebars,
+   Look: a light content card on a bold page colour, deep-wine sidebars,
    monospace type throughout, centered section headings.
    Tokens first. Change --frame to recolour the whole page.
    ------------------------------------------------------------------ */
 
 :root {
-  --frame: #3a5fe0;          /* the page colour behind the card */
-  --side: #0a0a0a;           /* sidebars + footer */
-  --side-ink: #f2f2f2;
-  --paper: #f4f5f7;          /* the card */
-  --ink: #14181f;
-  --muted: #5d6675;
-  --rule: #d6dae1;
-  --well: #e8ebf0;
-  --link: #3a5fe0;
-  --link-ink: #23409e;
+  --frame: #da627d;          /* the page colour behind the card */
+  --side: #450920;           /* sidebars + footer */
+  --side-ink: #f9dbbd;
+  --paper: #fdf3ec;          /* the card */
+  --ink: #2b0e18;
+  --muted: #7a4552;
+  --rule: #e8d2d8;
+  --well: #f7e0e6;
+  --link: #da627d;
+  --link-ink: #a53860;
   --ok: #1e9a73;
 
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -33,26 +33,26 @@
 }
 
 :root[data-theme="dark"] {
-  --paper: #131826;
-  --ink: #e7eaf0;
-  --muted: #98a2b3;
-  --rule: #2a313d;
-  --well: #131826;
-  --link: #a9bcff;
-  --link-ink: #a9bcff;
-  --frame: #16224f;
+  --paper: #1f0812;
+  --ink: #f6e6ea;
+  --muted: #c48b98;
+  --rule: #4a1522;
+  --well: #29091a;
+  --link: #ffa5ab;
+  --link-ink: #ffa5ab;
+  --frame: #450920;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #131826;
-  --ink: #e7eaf0;
-  --muted: #98a2b3;
-  --rule: #2a313d;
-  --well: #131826;
-  --link: #a9bcff;
-  --link-ink: #a9bcff;
-  --frame: #16224f;
+    --paper: #1f0812;
+  --ink: #f6e6ea;
+  --muted: #c48b98;
+  --rule: #4a1522;
+  --well: #29091a;
+  --link: #ffa5ab;
+  --link-ink: #ffa5ab;
+  --frame: #450920;
   }
 }
 

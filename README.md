@@ -12,7 +12,7 @@ Static HTML and one hand-written stylesheet. No framework, no build step, minima
 
 ## Design
 
-A light content card on a blue page, black sidebars, IBM Plex Mono throughout, centered section headings. Dark mode follows the OS until the toggle pins a choice. Everything visual is a token at the top of `assets/style.css`; `--frame` recolours the whole page.
+A light content card on a rose page, deep-wine sidebars, IBM Plex Mono throughout, centered section headings. Dark mode follows the OS until the toggle pins a choice. Everything visual is a token at the top of `assets/style.css`; `--frame` recolours the whole page.
 
 ## Running live
 
